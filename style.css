@@ -1,0 +1,89 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: 'Mukta Malar', sans-serif;
+}
+
+h1 {
+  color: #000;
+  margin: 0;
+  height: 5vh;
+  text-align: center;
+}
+
+.cabecera {
+  background-color: #76b4eb;
+  padding-top: 2px;
+}
+
+.cabecera h1 {
+  margin: 0;
+  color: #fff;
+  padding-top: 6px;
+}
+
+
+.contenedor {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.menu {
+  background-color: #e5e5e6;
+  width: 45vh;
+  height: 110vh;
+  display: block;
+}
+
+.menu ul li a {
+  color: #070707;
+  font-size: 20px;
+  text-decoration: none;
+  vertical-align: auto;
+}
+
+.menu ul li {
+  padding-top: 15px;
+}
+
+.menu ul li:hover {
+  background-color: orange;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.text {
+  width: 50%;
+  float: left;
+}
+
+.image {
+  width: 40%;
+  float: right;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 0 15px -5px #333;
+  
+}
+.video{
+  margin-top: 10%;
+  float: right;
+}
